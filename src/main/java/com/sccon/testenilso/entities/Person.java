@@ -11,7 +11,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 @Getter
 @Setter
@@ -26,5 +25,5 @@ public class Person {
     private String name;
     private LocalDate birthDate;
     private LocalDate admissionDate;
-
+    private Double salary;
 }
